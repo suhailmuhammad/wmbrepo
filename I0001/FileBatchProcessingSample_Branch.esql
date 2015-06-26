@@ -3,6 +3,8 @@ Sample program for use with IBM WebSphere Message Broker
 © Copyright International Business Machines Corporation 2007, 2010 
 Licensed Materials - Property of IBM
 */
+/* bug fix in release I0001_V1.0 */
+/* bug fix simply */
 	DECLARE messageCount SHARED INTEGER 0;
 CREATE COMPUTE MODULE FileAggrSample_Branch_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
